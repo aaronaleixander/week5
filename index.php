@@ -13,7 +13,7 @@ $f3 = Base::instance();
 $f3->route('GET /' , function(){
     // fat free - taking the view page and rendering it in the browser
     $view = new Template();
-    echo $view->render('/views/info .html');
+    echo $view->render('/views/info.html');
 });
 
 // Run fat free
